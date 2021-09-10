@@ -2,7 +2,6 @@ package com.example.demo.controller;
 
 import java.util.List;
 import java.util.Optional;
-
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
@@ -20,6 +19,9 @@ public class GuitarController {
 	
 //	@Autowired
 //	GuitarModel guitar;
+	/**
+	 *  Adding this Java doc to check the continuous build using GitHub Actions
+	 */
 	
 	@Autowired
 	GuitarRepository guitarRepo;
