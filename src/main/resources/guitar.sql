@@ -1,0 +1,1 @@
+insert into guitar values('Fender', 'Stratocaster');
