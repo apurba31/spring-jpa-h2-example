@@ -17,8 +17,8 @@ import com.example.demo.repository.GuitarRepository;
 @RestController
 public class GuitarController {
 	
-//	@Autowired
-//	GuitarModel guitar;
+	@Autowired
+	GuitarModel guitar;
 	/**
 	 *  Adding this Java doc to check the continuous build using GitHub Actions
 	 */
