@@ -16,7 +16,7 @@ public class CorsConfig implements WebMvcConfigurer{
 //				.allowedOrigins("*")
 //				 .allowedMethods("*")
 //				  .maxAge(3600L)
-//				  .allowedHeaders("*")
+//				  .allowedHeaders("*") Adding new comment line to show ci/cd capabilities of github actions
 //				  .exposedHeaders("Authorization")
 //				  .allowCredentials(true);
 		corsRegistry.addMapping("/**")
